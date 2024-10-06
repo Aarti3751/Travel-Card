@@ -1,13 +1,74 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.card {
+  height: max-content;
+  width: 22rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.4rem;
+  margin-top: 2rem;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+img {
+  width: 96%;
+  height: 20rem;
+  margin-top: 0.5rem;
+  object-fit: cover;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.4rem;
+
+}
+
+.info {
+  width: 96%;
+  margin: auto;
+
+}
+
+.card_button {
+  width: 90%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 2px solid rgb(142, 2, 2);
+  background-color: rgb(253, 99, 99);
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card_button:hover {
+  background-color: red;
+}
+
+.price {
+  font-weight: bolder;
+  color: rgb(101, 161, 11);
+  font-size: 1.2rem;
+}
+.nothing_left{
+ 
+  width: 100%;
+  height: 35rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
